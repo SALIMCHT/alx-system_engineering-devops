@@ -25,6 +25,5 @@ frontend lb-01
 backend webservers
         mode http
         balance roundrobin
-        server 449040-web-01 100.27.4.38:80
-        server 449040-web-02 18.204.14.176:80
-|████████████████████████████████
+        server 529245-web-01 34.198.248.145:80
+        server 529245-web-02 54.89.38.100:80
