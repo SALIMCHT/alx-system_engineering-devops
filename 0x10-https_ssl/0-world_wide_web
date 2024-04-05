@@ -13,4 +13,4 @@ else
     print_domain_subdomain "lb-01.$1" "lb-01"
     print_domain_subdomain "web-01.$1" "web-01"
     print_domain_subdomain "web-02.$1" "web-02"
-fii
+fi
