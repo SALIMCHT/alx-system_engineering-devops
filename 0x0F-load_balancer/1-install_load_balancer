@@ -34,11 +34,11 @@ defaults
   timeout server 15s
   timeout http-request 10s
 
-frontend clickviral-tech-frontend
+frontend smpro-tech-frontend
     bind *:80
-    default_backend clickviral-tech-backend
+    default_backend smpro-tech-backend
 
-backend clickviral-tech-backend
+backend smpro-tech-backend
     balance roundrobin
     server 529245-web-01 34.229.189.112:80 check
     server 529245-web-02 52.86.166.252:80 check
